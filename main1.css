@@ -1,0 +1,204 @@
+/* Dark theme */
+.dark,
+.dark body {
+  font-family: var(--body-font);
+  background: var(--body-color);
+  background-color: #000000;
+  font-size: var(--normal-font-size);
+  overflow-x: hidden;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+.dark .fa-solid fa-mug-hot {
+  color: #000000;
+}
+
+.dark .bi-moon {
+  display: block;
+  margin-left: 10px;
+}
+.dark section details summary {
+  background-color: #14142a;
+  color: #ffffff;
+}
+.dark section details p {
+  background-color: #616161;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.dark.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dark.bi-moon {
+  display: none;
+}
+/*=============== VARIABLES CSS ==========================*/
+.dark:root {
+  --first-color: #000000;
+  --first-color-light: #714aff;
+  --second-color: #000000;
+  --second-color-light: #000000;
+  --white-color: #050505;
+  --black-color: #161616;
+}
+/*=============== RESPONSIVE TYPOGRAPHY ==================*/
+@media screen and (min-width: 1024px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+  .dark .active-link {
+    color: #714aff;
+  }
+  .dark.footer {
+    border-top: 1px var(--first-color-light);
+  }
+}
+.dark .logo {
+  color: rgb(255, 255, 255);
+}
+.dark .section__title span {
+  color: #714aff;
+}
+.dark .section__subtitle {
+  color: #ffffff;
+}
+.dark .nav {
+  background-color: #000000;
+}
+.dark .nav__link {
+  color: #ffffff;
+}
+.dark .home__subtitle {
+  color: #ffffff;
+}
+.dark .scroll-header {
+  background-color: #000000;
+  box-shadow: 0 8px 20px #714aff3f;
+}
+.dark .category__desc {
+  color: #000000;
+}
+.dark .category__card:hover .category__desc {
+  color: #ffffff;
+}
+.dark.category__card:hover {
+  background-color: #ffffff;
+}
+.dark.category__card {
+  width: 250px;
+  background-color: #ffffff;
+}
+.dark .about__content h1 {
+  color: #ffffff;
+}
+.dark .about__content p {
+  color: #ffffff;
+}
+.dark .preto {
+  display: none;
+}
+.dark .branca {
+  display: block; /* Torna a imagem visível por padrão */
+}
+.dark #cafeP {
+  display: none;
+}
+.dark #cafeB {
+  display: block; /* Torna a imagem visível por padrão */
+}
+.dark #cafe1 {
+  color: #ffffff;
+}
+.dark .section__title {
+  color: #ffffff;
+}
+.dark .contact__info .icon__contact {
+  color: #ffffff;
+}
+.dark .contact__info a {
+  color: #ffffff;
+}
+.dark #cafe5 {
+  color: #ffffff;
+}
+.dark #cafe22 {
+  color: #ffffff;
+}
+.dark .copy {
+  color: #ffffff;
+}
+.dark.footer__subtitle {
+  color: #ffffff;
+}
+.dark .footer__adress {
+  color: #ffffff;
+}
+.dark .contact__content {
+  color: #ffffff;
+}
+.dark #insta1 {
+  color: #ffffff;
+}
+.dark #face1 {
+  color: #ffffff;
+}
+.dark #footer {
+  color: #ffffff;
+}
+.dark #ham {
+  color: #714aff;
+}
+.dark .footer__title {
+  color: #ffffff;
+}
+.dark h1 {
+  color: #a0a0a0;
+}
+.dark h3 {
+  color: #b8b8b8;
+}
+.dark #insta2 {
+  color: #ffffff;
+}
+.dark a {
+  color: #ffffff;
+}
+.dark .submenu a:hover {
+  color: #9e9e9e; /* Cor quando o mouse está sobre o texto */
+}
+.dark .nav__item:hover .submenu {
+  background-color: #252525;
+  display: block;
+}
+.dark #accessory-submenu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 10px; /* Espaçamento entre a borda e o texto */
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.dark #accessory-submenu a:hover {
+  color: #714aff;
+}
+.dark .about__img2 {
+  display: inline;
+  width: 350px;
+  margin: 0 auto;
+}
+.dark #store2 {
+  color: #ffffff;
+}

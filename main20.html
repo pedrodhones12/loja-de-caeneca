@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaraFocs</title>
+    <!--=============== FAVICON ==========================-->
+    <link
+      rel="shortcut icon"
+      href="./assets/Untitled128_20230824140202.png"
+      type="image/x-icon"
+    />
+    <!--=============== FONT-AWESOME =====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--=============== GOOGLE FONTS =====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== STYLE CSS ========================-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="main1.css" />
+  </head>
+
+  <body>
+    <!--=============== HEADER ===========================-->
+    <header class="header" id="header">
+      
+      <h1>
+        <a href="#" class="logo">SARAFOCS</a>
+        <i class="fa-solid fa-image" style="color: #000000;"></i>
+      </h1>
+      <nav class="nav" id="nav">
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link active-link">HOME</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link custom-link">SOBRE</a>
+          </li>
+          <li class="nav__item">
+            <a href="#accessory" class="nav__link custom-link">CATEGORIA</a>
+            <ul class="submenu" id="accessory-submenu">
+              <!-- Coloque suas opções de submenu aqui -->
+              <li><a href="style.html" class="submenu-link">Anime</a></li>
+              <li><a href="style1.html" class="submenu-link">Filmes</a></li>
+              <li><a href="style2.html" class="submenu-link">Series</a></li>
+              <li><a href="style3.html" class="submenu-link">Games</a></li>
+              <li><a href="style3.html" class="submenu-link">Religiosos</a></li>
+              <li><a href="#" class="submenu-link">Basquete</a></li>
+              <li><a href="#" class="submenu-link">Amantes de Café</a></li>
+              <li><a href="#" class="submenu-link">Signos</a></li>
+              <li><a href="#" class="submenu-link">Atitude Total</a></li>
+              <li><a href="#" class="submenu-link">Familia</a></li>
+              <li><a href="#" class="submenu-link">Profissões</a></li>
+              <li><a href="#" class="submenu-link">Casal</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#accessory" class="nav__link custom-link">ACESSÓRIOS</a>
+            <ul class="submenu" id="accessory-submenu">
+              <!-- Coloque suas opções de submenu aqui -->
+              <li><a href="index1.html" class="submenu-link">Canecas</a></li>
+              <li><a href="index2.html" class="submenu-link">Chaveiros</a></li>
+              <li><a href="index3.html" class="submenu-link">Quadros</a></li>
+              <li><a href="index4.html" class="submenu-link">Canecas</a></li>
+              <li><a href="index5.html" class="submenu-link">Chaveiros</a></li>
+              <li><a href="index6.html" class="submenu-link">Quadros</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link custom-link">CONTATO</a>
+          </li>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-x icon__close"></i>
+          </div>
+        </ul>
+      </nav>
+      
+      </nav>
+      <div>
+        <input type="checkbox" name="change-theme" id="change-theme" />
+        <label for="change-theme">
+          <i class="bi bi-sun"></i>
+          <i class="bi bi-moon"></i
+        ></label>
+      </div>
+      <div class="nav__cart">
+        <a href="#home">
+          <i id="cafeP" class="fa-solid fa-house" style="color: #0f0f0f;"></i>
+          <i id="cafeB" class="fa-solid fa-house" style="color: #ffffff;"></i>
+        </a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i id="ham"   class="fa-solid fa-bars icon__toggle"></i>
+        </div>
+      </div>
+    </header>
+    <!--=============== MAIN =============================-->
+    <main>
+    
+      <!--=============== CATEGORY =====================-->
+     
+      <!--=============== DONATE =======================-->
+     
+      <!--=============== ACCESSORY ====================-->
+      
+      <section class="accessory section container" id="accessory">
+        <h1 class="section__title">QUADROS DA <span>SaraFocs</span></h1>
+        <p class="section__subtitle">
+          Quadros que fazem seu dia mais feliz.
+        </p>
+
+       
+    
+        <div class="accessory__cards grid">
+          <article class="accessory__card" data-categoria="2">
+            <img src="./img/19.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca "Caga que Passa": Encare os desafios com humor! Esta caneca é
+              um lembrete de que, às vezes, não vale a pena se preocupar tanto.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="2" class="accessory__card">
+            <img src="./img/20.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca "Foda-se": Uma caneca para os momentos de atitude e desapego.
+              Diga o que precisa ser dito com um toque de ousadia.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article class="accessory__card" data-categoria="2">
+            <img src="./img/21.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Quando a vida exige foco, esta caneca faz o trabalho pesado de manter
+              você ligado no seu computador.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article class="accessory__card" data-categoria="7">
+            <img src="./img/22.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              "Para enfrentar os desafios da vida adulta, um café é essencial. Esta
+              caneca entende!
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article class="accessory__card" data-categoria="2">
+            <img src="./img/23.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca "Respira": Um lembrete tranquilo em forma de caneca. Mantenha a
+              calma e siga em frente, uma respiração de cada vez.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article class="accessory__card" data-categoria="3">
+            <img src="./img/24.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Stranger Things "Eleven Days": Contagem regressiva para o
+              extraordinário! A caneca "Eleven Days" de Stranger Things é um
+              lembrete constante de que o inesperado está ao virar da esquina.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+        </div>
+        <div data-categoria="3" class="accessory__cards grid">
+          <article class="accessory__card">
+            <img src="./img/25.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Rick and Morty "Einstein": Junte-se à genialidade de Rick e
+              Morty com esta caneca "Einstein". Perfeita para os fãs que adoram o
+              lado intelectual da série.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="3" class="accessory__card">
+            <img src="./img/26.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Rick and Morty "I Am Right Black": Afirme sua perspicácia com a
+              caneca "I Am Right Black" Rick and Morty. Uma declaração ousada para
+              os verdadeiros fãs da série.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="3" class="accessory__card">
+            <img src="./img/27.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Rick and Morty "Bebendo": Celebre as aventuras
+              interdimensionais com a caneca Rick and Morty bebendo. Ideal para
+              acompanhar suas próprias jornadas do dia a dia.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="7" class="accessory__card">
+            <img src="./img/28.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Mostre seu amor pela cafeína com esta caneca que exibe a fórmula
+              química do elixir mágico.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="7" class="accessory__card">
+            <img src="./img/29.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Adicione café, subtraia mimimi. Esta caneca é a fórmula secreta para
+              um dia incrível.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="7" class="accessory__card">
+            <img src="./img/" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Um aviso claro: só o café é bem-vindo quando queremos paz.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+        </div>
+    
+        <div data-categoria="7" class="accessory__cards grid">
+          <article class="accessory__card">
+            <img src="./img/31.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Uma caneca perfeita para expressar o desejo universal de café, com um
+              toque de meme.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/32.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Celebre seu relacionamento com esta caneca 'Game Over'. O jogo da vida
+              a dois, onde todos ganham, mas o nível de desafio aumenta!
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/33.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Uma declaração de amor deliciosa. 'Eu te amo mais que pizza' é algo
+              sério!
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/34.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Compartilhe amor com a caneca 'Meu Xuxuzinho' - perfeita para casais
+              apaixonados.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/35.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Mostre seu carinho pelo tio descolado com esta caneca especial.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/36.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              "Um presente carinhoso para o sogro que é verdadeiramente o melhor do
+              mundo.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+        </div>
+    
+        <div data-categoria="Serie" class="accessory__cards grid">
+          <article class="accessory__card">
+            <img src="./img/37.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Uma homenagem à melhor sogra que alguém poderia ter.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/38.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Uma caneca perfeita para médicos e entusiastas da medicina.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/39.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Esta caneca celebra a medicina com um toque de coração.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/22.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Personalize esta caneca de doutor com o seu nome e mostre seu orgulho
+              na profissão.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/23.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Stranger Things "Eleven": Reviva as aventuras sobrenaturais com
+              a caneca "Eleven" de Stranger Things. Uma homenagem à poderosa garota
+              com habilidades extraordinárias.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+    
+          <article data-categoria="Serie" class="accessory__card">
+            <img src="./img/24.png" alt="accessory image" />
+            <h2 class="accessory__desc">
+              Caneca Stranger Things "Car Up": Leve o mistério para sua rotina com a
+              caneca "Car Up" de Stranger Things. Uma lembrança do carro que se
+              aventurou no desconhecido.
+            </h2>
+            <span class="accessory__price">R$ 29,99</span>
+            <a href="#" class="btn__icon">
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </a>
+          </article>
+        </div>
+      </head>
+      <body>
+        <script>
+          // Função para filtrar produtos com base na entrada do usuário e na categoria selecionada
+          function filtrarProdutos() {
+            var input = document.getElementById("filtro-produtos");
+            var filtro = input.value.toUpperCase(); // Converter para maiúsculas para tornar o filtro insensível a maiúsculas/minúsculas
+            var categoria = document.getElementById("categoria").value;
+            var listaProdutos = document.querySelectorAll(".accessory__card");
+    
+            listaProdutos.forEach(function (card) {
+              var nomeProduto = card
+                .querySelector(".accessory__desc")
+                .textContent.toUpperCase();
+              var categoriasItem = card.getAttribute("data-categoria");
+    
+              // Verificar se o texto do item contém o filtro e se a categoria corresponde à categoria selecionada
+              if (
+                (nomeProduto.indexOf(filtro) > -1 || filtro === "") &&
+                (categoria === "todos" || categoriasItem === categoria)
+              ) {
+                card.style.display = "block";
+              } else {
+                card.style.display = "none"; // Ocultar cartões que não correspondem ao filtro ou à categoria selecionada
+              }
+            });
+          }
+    
+          // Adicionar ouvintes de eventos para chamar a função de filtragem quando o usuário digitar ou selecionar uma categoria
+          document
+            .getElementById("filtro-produtos")
+            .addEventListener("input", filtrarProdutos);
+          document
+            .getElementById("categoria")
+            .addEventListener("change", filtrarProdutos);
+    
+          // Chamar a função de filtragem inicialmente para exibir todos os produtos
+          filtrarProdutos();
+        </script>
+        </div>
+      </section>
+      <!--=============== DISCOUNT =====================-->
+      
+      <!--=============== CONTACT ======================-->
+      <section class="contact section container grid" id="contact">
+        <div class="contact__content">
+          <h1>Entre em contato conosco por meio de qualquer uma dessas formas</h1>
+          <h2>Ligue para nós</h2>
+          <div class="contact__info">
+            <i class="fa-solid fa-phone icon__contact"></i>
+            <a href="#">11998412721</a>
+          </div>
+          <h2>Escreva para nós</h2>
+          <div class="contact__info">
+            <i class="fa-solid fa-envelope icon__contact"></i>
+            <a href="mailto:sarafocs9@email.com">sarafocs9@gmail.com</a>
+          </div>
+        </div>
+    </main>
+    <!--=============== FOOTER ===========================-->
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <div class="footer__logo">
+          <h1>
+            <a href="#" class="logo">
+          </i> SARAFOCS
+            </a> <i id="cafe5"  class="fa-solid fa-mug-hot"></i>
+          </h1>
+
+          <div class="social__box">
+            <a id="face1" href="https://www.facebook.com/profile.php?id=61550768315714"
+              ><i class="fa-brands fa-square-facebook icon__social"></i
+            ></a>
+            <a id="insta1" href="https://www.instagram.com/sarafocs/"
+              ><i class="fa-brands fa-square-instagram icon__social"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__adress">
+          <h3 class="footer__title">Nosso endereço</h3>
+            <a>Campo Limpo Paulista- SP </a>
+          
+        </div>
+      </div>
+      <div class="copy">
+        <p>&copy Todos os direitos reservados</p>
+        <span>Feito com ❤️ por @raffe_sc - 2023</span>
+      </div>
+    </footer>
+    <audio id="clickSound" preload="auto">
+      <source src="./assets/click.ogg" type="audio/mpeg">
+      Seu navegador não suporta a reprodução de áudio.
+  </audio>
+  <script>
+    var clickSound = document.getElementById('clickSound');
+  
+    // Defina o volume desejado (de 0 a 1)
+    clickSound.volume = 0.5; // 0.5 define o volume para 50%
+  
+    // Função para reproduzir o som quando o mouse é clicado
+    function playClickSound() {
+      clickSound.currentTime = 0; // Reinicia o áudio para poder ser reproduzido novamente
+      clickSound.play();
+    }
+  
+    // Adicione um ouvinte de evento para o clique do mouse em todo o documento
+    document.addEventListener('click', playClickSound);
+  </script>
+  <script>
+    var clickSound = document.getElementById('clickSound');
+  
+    // Defina o volume desejado (de 0 a 1)
+    clickSound.volume = 0.5; // 0.5 define o volume para 50%
+  
+    // Função para reproduzir o som quando o mouse é clicado
+    function playMultipleClicks() {
+      for (var i = 0; i < 3; i++) { // Reproduz o som três vezes, você pode ajustar esse número
+        var clonedSound = new Audio(clickSound.src); // Cria uma cópia do som
+        clonedSound.volume = clickSound.volume; // Define o volume da cópia
+        clonedSound.play();
+      }
+    }
+  
+    // Adicione um ouvinte de evento para o clique do mouse em todo o documento
+    document.addEventListener('click', playMultipleClicks);
+  </script>
+
+    <!--=============== SCROOL REVERAL ===================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=============== FONT-AWESOME JS ==================-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+      integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--=============== STYLE JS =========================-->
+    <script src="style.js"></script>
+    <script src="js/scripts.js" defer></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script.js"></script>
+    <script src="./script10.js"></script>
+    <div class="overlay">
+      <div class="spinner"></div>
+    </div>
+    <div class="content"></div>
+    <div class="loader-container"></div>
+    </div>
+    <div class="overlay2">
+      <div class="spinner2"></div>
+    </div>
+    <div class="content"></div>
+    <div class="loader-container"></div>
+    </div>
+  </body>
+</html>
